@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 
 )
 
@@ -20,5 +21,8 @@ func problemParser([]string)[]Problem{
 }
 
 func main(){
+	file := "quiz.csv"
+
+	problems, err := problemPuller(file)
 
 }
